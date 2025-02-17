@@ -1,11 +1,11 @@
 <!--
  * @Date: 2025-02-13 22:53:02
  * @LastEditors: Aregene
- * @LastEditTime: 2025-02-14 13:35:13
+ * @LastEditTime: 2025-02-17 13:37:01
 -->
-# Ju Anni's personal website
+# 数说砖情寒假社会实践 Team website
     
-Welcome to Ju Anni's personal website. This website is built with Vue.js.
+Welcome to 数说砖情寒假社会实践 Team website. This website is built with Vue.js.
 
 ## How to run the website
 
