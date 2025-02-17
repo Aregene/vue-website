@@ -1,7 +1,7 @@
 <!--
  * @Date: 2025-02-13 23:00:28
  * @LastEditors: Aregene
- * @LastEditTime: 2025-02-14 13:18:18
+ * @LastEditTime: 2025-02-17 10:03:34
 -->
 
 <!--  Header.vue  -->
@@ -21,15 +21,19 @@
     <transition name="slide">
       <div class="menu" v-if="menuOpen">
         <a @click="toggleMenu">Home</a>
-        <a @click="toggleMenu">Cooking</a>
-        <a @click="toggleMenu">Ehibition</a>
+        <a @click="toggleMenu">Information</a>
+        <a @click="toggleMenu">Perception</a>
+        <a @click="toggleMenu">About US</a>
       </div>
     </transition>
     <div class="content">
-      <h1>Welcome to Ju Anni's personal website</h1>
+      <h1>
+        Welcome to the website of the Social Practice Team for 'Numbers' and'
+        Bricks'
+      </h1>
       <div class="buttons">
-        <button class="left-button">My personality</button>
-        <button class="right-button">My skills</button>
+        <button class="left-button">Hundred Brick Knowledge Base</button>
+        <button class="right-button">Practical Style</button>
       </div>
     </div>
     <transition name="fade">
@@ -87,13 +91,12 @@ export default {
 
 <style scoped>
 .nav-header {
-  background: url("https://iphoto.mac89.com/photo/JPG-180514/180514_178/9PhJ3jaT8g_small.jpg")
-    no-repeat center center;
+  background: url("../../assets/firstbackground.jpg") no-repeat center center;
   background-size: cover;
   height: 100vh;
   position: relative;
 }
-
+/*https://iphoto.mac89.com/photo/JPG-180514/180514_178/9PhJ3jaT8g_small.jpg*/
 /* 添加伪元素作为模糊层 */
 .nav-header::before {
   content: "";
@@ -102,7 +105,7 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(30, 30, 110, 0.1); /* 灰蓝色背景，高透明度 */
+  background-color: rgba(0, 0, 0, 0.8); /* 灰蓝色背景，高透明度 */
   backdrop-filter: blur(5px); /* 模糊效果 */
   z-index: 1; /* 确保模糊层覆盖在图片层之上，但内容层之下 */
 }
@@ -116,7 +119,7 @@ export default {
 .logo {
   width: 220px;
   height: 210px;
-  background: url("../../assets/Juanni.png") no-repeat center/contain;
+  background: url("../../assets/logo1.png") no-repeat center/contain;
   transition: transform 0.5s ease-in-out;
   z-index: 998; /* 确保logo在最上层 */
   position: relative; /* 添加position属性以使z-index生效 */

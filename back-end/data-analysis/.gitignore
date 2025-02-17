@@ -1,0 +1,13 @@
+# 忽略.venv环境和__pycache__调试环境
+__pycache__/
+.venv/
+
+# 忽略单元测试环境
+unit-test/
+
+# 忽略环境变量
+.env
+
+# 忽略IDE相关文件
+.idea/
+.vscode/

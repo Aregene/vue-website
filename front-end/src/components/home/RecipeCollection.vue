@@ -1,6 +1,6 @@
 <template>
   <div class="squarespace-container">
-    <h1>My Recipe Collection</h1>
+    <h1>古砖印象</h1>
     <div class="card-container">
       <div class="card" v-for="(item, index) in cards" :key="index">
         <h2>{{ item.title }}</h2>
@@ -14,49 +14,49 @@
 </template>
 
 
+
+
+
+
+
 <script>
 export default {
   data() {
     return {
       cards: [
         {
-          title: '鲁菜 Shandong Cuisine',
-          description: 'Shandong Cuisine, from Shandong province, is famous for its seafood dishes, strong flavors, and traditional cooking methods.',
+          title: '万佛阁(Wanfo Pavilion)',
+          description: 'Wanfo Pavilion, a serene Buddhist temple, boasts over 10,000 Buddha statues, making it a popular pilgrimage site for devotees seeking solace.',
           linkText: 'LEARN MORE',
         },
         {
-          title: '川菜 Sichuan Cuisine',
-          description: 'Sichuan Cuisine, known for its spicy kick, blends Sichuan pepper and chili peppers for a tangy, savory experience. A must-try in Chinese gastronomy.',
+          title: '砖雕艺术馆(Brick Carving Art Museum)',
+          description: 'Brick Carving Art Museum showcases an impressive array of brick carvings, highlighting the intricate artistry and cultural significance of this traditional craft from various historical periods.',
           linkText: 'LEARN MORE',
         },
         {
-          title: '粤菜 Cantonese Cuisine',
-          description: 'Cantonese Cuisine, hailing from Guangdong, China, is renowned for its fresh ingredients, delicate flavors, and diverse cooking methods.',
+          title: '古砖窑遗址(The Ancient Brick Kiln Ruins)',
+          description: 'The Ancient Brick Kiln Ruins is notable for its preserved brick kilns, providing a glimpse into the production methods of historical bricks, and offering a deep understanding of ancient industrial heritage.',
           linkText: 'LEARN MORE',
         },
         {
-          title: '淮扬菜 Huaiyang Cuisine',
-          description: 'Huaiyang Cuisine, originating from Jiangsu, China, is famous for its refined techniques, fresh ingredients, and subtle, elegant flavors.',
+          title: '砖塔博物馆(Brick Tower Museum)',
+          description: 'Brick Tower Museum features an extraordinary display of brick towers, emphasizing the architectural innovation and historical evolution of brick tower construction through the ages.',
           linkText: 'LEARN MORE',
         },
         {
-          title: '闽菜 Fujian Cuisine',
-          description: 'Fujian Cuisine, from Fujian province, features fresh seafood, unique flavors, and a blend of sweet, sour, and savory tastes.',
+          title: '古砖路遗址(The Ancient Brick Road Ruins)',
+          description: 'The Ancient Brick Road Ruins is celebrated for its fragments of ancient brick roads, illustrating the materials and techniques used in historical road construction, and offering a tangible connection to the past.',
           linkText: 'LEARN MORE',
         },
         {
-          title: '浙菜 Zhejiang Cuisine',
-          description: 'Zhejiang Cuisine, hailing from Zhejiang province, is known for its fresh ingredients, delicate flavors, and emphasis on seafood dishes.',
+          title: '砖室墓博物馆(Brick Chamber Tomb Museum)',
+          description: 'Brick Chamber Tomb Museum is distinguished by its exhibition of brick-lined tombs, showcasing the burial customs, artistry, and historical context of ancient societies through its comprehensive collections and displays.',
           linkText: 'LEARN MORE',
         },
         {
-          title: '湘菜 Hunan Cuisine',
-          description: 'Hunan Cuisine, originating from Hunan province, is renowned for its spicy, sour, and savory flavors, utilizing fresh ingredients and bold seasoning.',
-          linkText: 'LEARN MORE',
-        },
-        {
-          title: '徽菜 Anhui Cuisine',
-          description: 'Anhui Cuisine, hailing from Anhui province, is characterized by its rich flavors, use of wild herbs, and emphasis on cooking techniques.',
+          title: '古砖博物馆(Ancient Brick Museum)',
+          description: 'Ancient Brick Museum is renowned for its extensive collection of historical bricks, intricate exhibits, and educational programs that delve into the history and craftsmanship of ancient brick-making.',
           linkText: 'LEARN MORE',
         },
       ],

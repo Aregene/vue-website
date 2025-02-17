@@ -1,31 +1,28 @@
 <!--
  * @Date: 2025-02-13 23:07:44
  * @LastEditors: Aregene
- * @LastEditTime: 2025-02-14 13:17:54
+ * @LastEditTime: 2025-02-17 13:27:31
 -->
  <!--  SelfIntroduction2.vue  -->
 <template>
   <div class="intro-container">
     <div class="text-section">
-      <h1>Loving traveling & Addicted to cats and dogs</h1>
+      <h1>古砖历史(History of Ancient Bricks)</h1>
       <p class="first-line">
-        As a passionate traveler, I find joy in exploring new places, while my
-        heart is filled with love for my adorable cats and dogs at home.
+        The history of ancient bricks can be traced back several thousand years, with evidence of their use in ancient civilizations such as Egypt, Mesopotamia, and China. 
       </p>
       <p>
-        "My love for traveling takes me to distant lands, but my addiction to
-        the company of cats and dogs keeps me grounded and happy.
+        Initially, bricks were crafted from mud or clay and sun-dried or fired in kilns to enhance their durability. These early bricks were primarily used for construction purposes, including the building of temples, palaces, and defensive structures. 
       </p>
       <p>
-        Whether it's wandering the world or cuddling with my pets, my love for
-        traveling and addiction to cats and dogs makes life truly fulfilling.
+        Their simplicity and versatility made them a staple material in ancient architectural practices.
       </p>
       <button @click="showMore">LEARN MORE →</button>
     </div>
     <div class="image-section">
       <img
         class="fade-in"
-        src="https://img2.baidu.com/it/u=310755505,1096035747&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=800"
+        src="../../assets/sotrefirst2.jpg"
         alt="个人简介图片"
       />
     </div>
@@ -56,8 +53,8 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background: #000;
+  height: 120vh;
+  background: #8A8A8A;
   color: #fff;
 }
 

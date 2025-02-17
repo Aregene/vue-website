@@ -1,7 +1,7 @@
 <!--
  * @Date: 2025-02-14 12:35:41
  * @LastEditors: Aregene
- * @LastEditTime: 2025-02-14 12:38:29
+ * @LastEditTime: 2025-02-17 13:06:31
 -->
 
 <!-- MyFooter.vue  -->
@@ -9,7 +9,7 @@
 <template>
   <footer class="footer">
     <div class="line-1">
-      &copy; 2025 Ju Anni. All rights reserved. A Lively Girl &
+      &copy; 2025数说砖情社会实践团队. All rights reserved. A Lively Girl &
       Founder of <a href="#">SQUAR</a>
     </div>
     <div>

@@ -1,15 +1,15 @@
 <!--
  * @Date: 2025-02-14 12:05:15
  * @LastEditors: Aregene
- * @LastEditTime: 2025-02-14 12:19:11
+ * @LastEditTime: 2025-02-17 13:29:08
 -->
 
 <!--  EnvironmentalDisplay.vue  -->
   
 <template>
   <div class="instagram-feed">
-    <h3 class="feed-title">MY INSTAGRAM FEED</h3>
-    <h1 class="main-title">Me as a Lively Girl.</h1>
+    <h3 class="feed-title">Other Ancient Wall</h3>
+    <h1 class="main-title">Waiting for us to depart</h1>
     <div class="image-gallery">
       <div class="image-wrapper" v-for="(image, index) in images" :key="index">
         <img :src="image" alt="Instagram Image" />
@@ -23,11 +23,11 @@ export default {
   data() {
     return {
       images: [
-        "https://img1.baidu.com/it/u=1807070079,4252475929&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1422",
-        "https://img2.baidu.com/it/u=54421408,4206793300&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=1083",
-        "https://qcloud.dpfile.com/pc/GYyKIR78Zc8QAET-BI1rzQrN3ASQWrrWft4MtVTONBqhow6pX0gWG-2v4NsvChrI.jpg",
-        "https://img2.baidu.com/it/u=1966266789,2683995189&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1576",
-        "https://img1.baidu.com/it/u=1207584750,3772597574&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1200",
+        require("../../assets/1.jpg"),
+        require("../../assets/2.jpg"),
+        require("../../assets/3.jpg"),
+        require("../../assets/4.jpg"),
+        require("../../assets/5.jpg")
       ],
     };
   },
@@ -36,7 +36,7 @@ export default {
 
 <style scoped>
 .instagram-feed {
-  background-color: black;
+  background-color: #8A8A8A;
   color: white;
   text-align: center;
   padding: 100px 0;

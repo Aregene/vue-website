@@ -1,18 +1,18 @@
 <template>
   <div class="intro-container">
     <div class="image-section">
-      <img class="fade-in" src="https://img2.baidu.com/it/u=2546489114,3802517329&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1200" alt="个人简介图片" />
+      <img class="fade-in" src="../../assets/sotrefirst.jpg" alt="个人简介图片" />
     </div>
     <div class="text-section">
-      <h1>Mastering the art of cuisine & Designer is my primary focus.</h1>
+      <h1>古墙文化(Ancient Wall Culture)</h1>
       <p class="first-line typewriter-effect">
-        As a young and passionate chef with a keen eye for design, I seamlessly fuse culinary excellence with aesthetic appeal.
+        The origin of ancient city walls can be traced back to the late Neolithic period, when humans began building simple defensive fortifications to protect their homes and property. This was the prototype of city walls.
       </p>
       <p class="typewriter-effect">
-        My expertise lies in creating dishes that are not only delicious but also visually stunning, ensuring every meal is a feast for both the taste buds and the eyes.
+        In China, the construction of city walls began in the Shang and Zhou dynasties, mostly made of rammed earth, with simple but practical structures. As the basic guarantee for the survival of ancient cities, city walls were not only military defense facilities used to resist foreign invasion, but also controlled the population, making urban management and control more orderly.
       </p>
       <p class="typewriter-effect">
-        With a deep understanding of flavor profiles and a creative approach to presentation, I strive to elevate every dining experience to an art form.
+        At the same time, the city wall also represents the authority and dignity of the country, and is an important component of the city's image
       </p>
       <button @click="showMore">LEARN MORE →</button>
     </div>

@@ -1,0 +1,11 @@
+scikit-learn
+seaborn
+scipy
+fastapi
+uvicorn
+psycopg2
+sqlalchemy
+pytest
+pandas
+openpyxl
+python-dotenv

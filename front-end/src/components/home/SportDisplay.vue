@@ -1,17 +1,16 @@
 <!--
  * @Date: 2025-02-14 10:52:42
  * @LastEditors: Aregene
- * @LastEditTime: 2025-02-14 13:17:26
+ * @LastEditTime: 2025-02-17 13:28:23
 -->
 
 <!--  SportDisplay.vue  ---->
 
 <template>
   <div class="project-showcase">
-    <h2 class="title">My super sports cells</h2>
+    <h2 class="title">Our practical achievements</h2>
     <p class="description">
-      As a fitness enthusiast, here are some of the latest workout routines I've
-      been following.
+      We took photos and visited the Wanfo Pavilion to gain a deep understanding of the ancient brick culture
     </p>
     <div class="images">
       <div class="image-container">
@@ -31,10 +30,8 @@ export default {
   name: "ProjectShowcase",
   data() {
     return {
-      image1:
-        "https://img0.baidu.com/it/u=259751230,412553277&fm=253&fmt=auto&app=120&f=JPEG?w=1280&h=800",
-      image2:
-        "https://img0.baidu.com/it/u=3039515118,1506183369&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=750",
+      image1: require('@/assets/wall.jpg'),
+      image2: require('@/assets/post.jpg'),
     };
   },
 };
@@ -43,7 +40,7 @@ export default {
 <style scoped>
 .project-showcase {
   text-align: center;
-  background-color: black;
+  background-color: #8A8A8A;
   color: white;
   padding: 20px;
   font-family: "Georgia", serif; /* 使用类衬线字体 */

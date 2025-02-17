@@ -1,16 +1,16 @@
 <!--
  * @Date: 2025-02-14 11:50:49
  * @LastEditors: Aregene
- * @LastEditTime: 2025-02-14 13:18:27
+ * @LastEditTime: 2025-02-17 13:24:21
 -->
 
 <!--  TravelDisplay.vue  -->
 
 <template>
   <div class="blog-showcase">
-    <h2 class="title">Latest Blog Posts</h2>
+    <h2 class="title">Our online browsing</h2>
     <h3 class="description">
-      Read through my thoughts and insights through being a Great Cook.
+      The ancient bricks browsed online are also full of ancient charm.
     </h3>
     <div class="blog-images">
       <div class="image-card" v-for="(blog, index) in blogs" :key="index">
@@ -32,24 +32,22 @@ export default {
       blogs: [
         {
           image:
-            "https://img0.baidu.com/it/u=2648199945,244004265&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=625",
-          title: "I started a vlog",
+            "https://img0.baidu.com/it/u=2038733773,2019116432&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=749",
+          title: "Ancient Brick Corridor",
           description:
-            "Building SquaR is a weekly vlog series documenting my journey...",
+            "The Ancient Brick Corridor, a historic pathway adorned with ancient bricks.",
         },
         {
-          image:
-            "https://img2.baidu.com/it/u=1643992979,2273380359&fm=253&fmt=auto&app=133&f=JPEG?w=380&h=675",
-          title: "Introducing SQUAR",
+          image: require('@/assets/house.jpg'),
+          title: "Wanyue Tower",
           description:
-            "Today I’d like to introduce everyone to my new company, SQUAR...",
+            "Wanyue Tower has imprisoned and tortured many revolutionary martyrs.",
         },
         {
-          image:
-            "https://img1.baidu.com/it/u=164334912,3393174090&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=1083",
-          title: "Code Shop growth",
+          image: require('@/assets/wall2.jpg'),
+          title: "Ancient bricks and strange stones",
           description:
-            "My Code Shop was started as an idea to support the community...",
+            "This is the great power of nature",
         },
       ],
     };

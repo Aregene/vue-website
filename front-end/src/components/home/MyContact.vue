@@ -8,11 +8,11 @@
 <template>
   <div class="footer">
     <div class="contact-info">
-      <p>hello@devonstank.com</p>
-      <p>(717) 525-1031</p>
+      <p>sh1212121245@126.com</p>
+      <p>17321176210</p>
     </div>
     <div class="logo">
-      <img src="../../assets/Juanni.png" alt="Logo" />
+      <img src="../../assets/logo1.png" alt="Logo" />
     </div>
     <div class="social-icons">
       <InstagramOutlined />
